@@ -20,9 +20,33 @@ const Contact: FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    console.log('Form submitted:', formData);
+    const submittedAt = new Date();
+    const contactDetails = [
+      'Portfolio Contact Submission',
+      '============================',
+      '',
+      `Name: ${formData.name}`,
+      `Email: ${formData.email}`,
+      `Project: ${formData.subject}`,
+      '',
+      'Message:',
+      formData.message,
+      '',
+      `Submitted: ${submittedAt.toLocaleString()}`
+    ].join('\n');
+    const file = new Blob([contactDetails], { type: 'text/plain;charset=utf-8' });
+    const downloadUrl = URL.createObjectURL(file);
+    const downloadLink = document.createElement('a');
+    const timestamp = submittedAt.toISOString().replace(/[:.]/g, '-');
 
-    alert('Thank you for your message! I will get back to you soon.');
+    downloadLink.href = downloadUrl;
+    downloadLink.download = `contact-${timestamp}.txt`;
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    downloadLink.remove();
+    URL.revokeObjectURL(downloadUrl);
+
+    alert('Your contact details were downloaded as a text file. Thank you for your message!');
     setFormData({ name: '', email: '', subject: '', message: '' });
   };
 
