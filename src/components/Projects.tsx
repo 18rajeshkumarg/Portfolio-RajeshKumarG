@@ -13,16 +13,6 @@ const Projects: FC = () => {
       type: 'live',
     },
     {
-      id: 2,
-      title: 'Indica Software',
-      description:
-        'Indica Software Pvt Ltd delivers enterprise-grade web solutions with integrated UPI payment systems. We build scalable, production-ready platforms that convert visitors into customers through seamless user experiences and secure transaction flows.',
-      technologies: ['HTML', 'CSS', 'JavaScript'],
-      image: `${import.meta.env.BASE_URL}images/Indica Software.png`,
-      link: 'https://indicasoftware-3ed80v2.gamma.site/indica-software-pvt-ltd-the-learning-platform',
-      type: 'live',
-    },
-    {
       id: 3,
       title: 'Run Engine',
       description:

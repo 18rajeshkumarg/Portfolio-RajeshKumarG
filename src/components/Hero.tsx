@@ -13,7 +13,7 @@ const Hero: FC = () => {
             </h1>
 
             <h2 className="text-2xl md:text-3xl mt-4 text-gray-900">
-              Frontend Developer & UI Designer
+              Custom Software Developer & A Sales & Marketing Lead with a Passion for Crafting Exceptional Digital Experiences
             </h2>
 
             <p className="mt-6 text-lg text-gray-700 max-w-lg">

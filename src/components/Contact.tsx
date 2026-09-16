@@ -152,10 +152,10 @@ const Contact: FC = () => {
                   <div className="ml-4">
                     <h4 className="text-lg font-medium text-gray-900">Email</h4>
                     <a
-                      href="mailto:rajesh.kumar@techpearl.com"
+                      href="mailto:rajeshkumar.g1881@gmail.com"
                       className="mt-1 text-indigo-600 hover:underline"
                     >
-                      rajesh.kumar@techpearl.com
+                      rajeshkumar.g1881@gmail.com
                     </a>
                   </div>
                 </div>

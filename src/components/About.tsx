@@ -22,9 +22,9 @@ return (
 
 <p className="text-gray-800 mb-4">
 
-              I'm a passionate frontend developer with over 3 years of experience creating modern web applications. 
-              My journey in tech started during my computer science degree where I discovered my love for 
-              creating intuitive user interfaces.
+              I'm a passionate Software & AI developer with over 1.5 years of experience as a Trainee & Intern, creating modern web applications.
+              My journey in tech started during my computer science degree where I discovered my passion for
+              for creating intuitive user interfaces.
 
 </p>
 
@@ -45,7 +45,6 @@ return (
 
 </div>
           
-          
 <div className="md:w-1/2">
 
 <h3 className="text-2xl font-semibold text-gray-900 mb-4">Education & Experience</h3>
@@ -56,27 +55,27 @@ return (
 <h4 className="font-bold text-gray-900">Bachelor of Computer Applications</h4>
                 
 <p className="text-indigo-800">Sindhi College</p>
-<p className="text-gray-600 mt-1">I'm a student and pursuing my degree courses.</p>
+<p className="text-gray-600 mt-1">I am a graduated student in the year 2026.</p>
 
 </div>
               
 
 <div className="border-l-2 border-indigo-200 pl-4 py-1">
             
-<h4 className="font-bold text-gray-900">Frontend Developer</h4>
+<h4 className="font-bold text-gray-900">Intern Software & AI Developer</h4>
 
 <p className="text-indigo-800">Techpearl Software Pvt Ltd</p>
-<p className="text-gray-600 mt-1">Developing responsive web applications using FrontEnd skills.</p>
+<p className="text-gray-600 mt-1">I have a Hands-On real world projects & a releastic experience of 1.5 years as a Trainee & Intern and how a startup software company is operated and managed.</p>
 
 </div>
               
 
 <div className="border-l-2 border-indigo-200 pl-4 py-1">
 
-<h4 className="font-bold text-gray-900">UI/UX Intern</h4>
+<h4 className="font-bold text-gray-900">Sales & Marketing</h4>
 
-<p className="text-indigo-800">N/A</p>
-<p className="text-gray-600 mt-1">Created wireframes and prototypes for client projects</p>
+<p className="text-indigo-800">Sky Udaan En - Fab Pvt Ltd</p>
+<p className="text-gray-600 mt-1">I was responsible for promoting and selling products, as well as managing customer relationships, hiring candidates, & a marketing team lead.</p>
 
 </div>
 
@@ -86,7 +85,7 @@ return (
 <h4 className="font-bold text-gray-900">Data Entry</h4>
 
 <p className="text-indigo-800">Work From Home</p>
-<p className="text-gray-600 mt-1">Inputting the data in Microsoft Excel and in Dashboard.</p>
+<p className="text-gray-600 mt-1">Inputting the data in their Dashboards & Reports.</p>
  
 </div>
 
