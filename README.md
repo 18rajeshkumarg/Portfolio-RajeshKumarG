@@ -127,7 +127,7 @@ This project is [MIT](LICENSE) licensed - feel free to use as inspiration!
 
 - [LinkedIn](https://www.linkedin.com/in/18rajeshkumarg)
 - [GitHub](https://github.com/RajeshKumarG18)
-- Email: rajesh.kumar@techpearl.com
+- Email: rajeshkumar.g1881@gmail.com
 
 ---
 
